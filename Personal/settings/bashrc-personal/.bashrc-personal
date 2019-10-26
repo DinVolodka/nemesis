@@ -1,0 +1,9 @@
+#my personal aliases
+
+
+#personal
+alias cbf="bash /home/erik/Insync/Get-Started/clean-build-folders-v*.sh"
+alias cof="bash /home/erik/Insync/Get-Started/clean-out-folders-v*.sh"
+
+#more sensitive data
+[[ -f ~/.bashrc-private ]] && . ~/.bashrc-private
